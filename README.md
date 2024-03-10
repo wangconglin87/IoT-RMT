@@ -9,7 +9,7 @@
 ![IR Receiver & Transmitter](docs/res/211617.png)
 
 逻辑分析仪 + PulseView - 用于分析遥控器信号规则和后期调试。
-![Logic Analyzer](docs/res/211617.png)
+![Logic Analyzer](docs/res/211507.png)
 ![PulseView](docs/res/205907.png)
 
 ESP32c3 - 使用ESP IDF框架开发
