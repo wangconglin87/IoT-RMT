@@ -27,3 +27,5 @@ RMT的编码器有两种：
 `rmt_new_bytes_encoder()` 编码1Byte数据（8bit），根据`rmt_bytes_encoder_config_t`里面的设定将1字节数据编码为8个RMT Symbol。
 
 搞定编码器后，就能直接发射红外信号了。
+
+然后加入Wifi，使用SmartConfig进行配网，配置信息存储到nvs里面，通过MQTT协议与外部通信。IO 6接地后，按reset键重启后清楚配网信息。
